@@ -1,1 +1,5 @@
-sfdp -Goverlap=prism map.gv | gvmap -e | neato -n2 -Ecolor=#55555522 -Tpng > OUTPUT.png
+for normal output
+sfdp -Goverlap=prism map.gv | gvmap -e | neato -n2 -Ecolor=#55555522 -Tpng > map.png
+
+for clusterwise userdefined color
+sfdp -Goverlap=prism map.gv | gvmap -e -O | neato -n2 -Ecolor=#55555522 -Tpng > map.png
