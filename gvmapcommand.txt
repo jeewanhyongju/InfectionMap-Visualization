@@ -1,0 +1,8 @@
+for normal output
+sfdp -Goverlap=prism infection_connected_cluster.gv | gvmap -e | neato -n2 -Ecolor=#404040 -Tpng > ConnectedNodeAsCluster.png
+
+for clusterwise userdefined color
+sfdp -Goverlap=prism infection_Location_cluster.gv | gvmap -e -O | neato -n2 -Ecolor=#404040 -Tpng > LocationAsCluster.png
+
+for polygon only
+sfdp -Goverlap=prism infection_connected_cluster.gv | gvmap -e -c0 | neato -n2 -Ecolor=#404040 -Tpng > PolygonWithoutColour.png
