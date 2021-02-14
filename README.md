@@ -6,4 +6,4 @@ This project aims to visualize COVID-19 contact tracing InfectionMap using [GMap
 2. Install [Graphviz - Graph Visualization Software](https://graphviz.org/download/)
 
 ### For Output
-Use the commands from gvmapcommand.txt file.
+Use the commands from [gvmapcommand.txt](https://github.com/jeewanhyongju/InfectionMap-Visualization/blob/main/gvmapcommand.txt)  file.
