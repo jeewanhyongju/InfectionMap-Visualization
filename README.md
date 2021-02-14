@@ -5,4 +5,5 @@ This project aims to visualize COVID-19 contact tracing InfectionMap using [GMap
 1. For windows OS users, install [Windows Subsystem for Linux](https://docs.microsoft.com/en-gb/windows/wsl/install-win10)
 2. Install [Graphviz - Graph Visualization Software](https://graphviz.org/download/)
 
-
+### For Output
+Use the commands from gvmapcommand.txt file.
